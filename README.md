@@ -3,6 +3,7 @@ StateListLayout is a custom layout that allows you to show different
 user interfaces in the same activity or fragment for the various
 states that the application may be in. 
 
+
 ## An Example
 An application may want to initially show a loading screen when the 
 activity starts, then show a list of items after they have been
@@ -56,6 +57,16 @@ public class MainActivity extends AppCompatActivity {
 }
 
 ````
+
+
+## Active state and state
+In the example above, two xml attributes are used: `app:active_state` and `app:state`.
+The first attribute is used to specify which state should be considered
+as active and shown when the activity or fragment is initially displayed.
+
+The second attribute, `app:state` is used to associate a state with a layout.
+The value specified for the attribute is the name of the state object that would
+be created for the layout.
 
 # License
     Copyright 2017 Edwin Nyawoli
