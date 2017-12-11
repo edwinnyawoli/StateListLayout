@@ -68,6 +68,23 @@ The second attribute, `app:state` is used to associate a state with a layout.
 The value specified for the attribute is the name of the state object that would
 be created for the layout.
 
+## Download
+ To use StateListLayout, add the JitPack repository to your root build file
+ ````groovy
+    allprojects {
+        repositories {
+            maven { url 'https://jitpack.io' }
+        }
+    }
+ ````
+and add the dependency
+````groovy
+    dependencies {
+        compile 'com.github.edwinnyawoli:StateListLayout:1.0.0'
+    }
+````
+
+
 # License
     Copyright 2017 Edwin Nyawoli
     
