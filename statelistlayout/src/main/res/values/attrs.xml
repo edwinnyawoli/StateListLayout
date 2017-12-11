@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="StateListLayout">
+        <attr name="active_state" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="StateListLayout_Layout">
+        <attr name="state" format="string" />
+    </declare-styleable>
+</resources>
