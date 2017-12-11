@@ -7,7 +7,7 @@ package com.edwinnyawoli.statelistlayout;
 public class State {
     public static final State UNKNOWN = new State("unknown");
     public static final State EMPTY = new State("empty");
-    public static final State LOADING = new State("loading");
+    public static final State PROGRESS = new State("progress");
     public static final State CONTENT = new State("content");
     public static final State ERROR = new State("error");
     private String name;
