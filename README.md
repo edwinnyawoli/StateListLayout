@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
 ````
 
 
-## Active state and state
+## XML Attributes
 In the example above, two xml attributes are used: `app:active_state` and `app:state`.
 The first attribute is used to specify which state should be considered
 as active and shown when the activity or fragment is initially displayed.
